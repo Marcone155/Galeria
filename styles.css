@@ -1,0 +1,93 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+} 
+
+p, li {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+header, .navbar {
+    background-color: black;
+} 
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 75px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: white;
+}
+
+#navbar-links a {
+    border-style: inset;
+    border-radius: 0;
+    color: black;
+    background-color: white;
+    padding: 6px;
+    margin-right: 20px;
+    font-weight: bold;
+    
+}
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
+h2 {
+    border-style: inset;
+    border-radius: 0;
+    padding: 10px;
+    color: white;
+    background: black;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.main-title {
+   color: black;
+   margin: 0 0 65px 0;
+   font-size: 40px;
+   text-align: center;
+}
+.main-title::after{
+    content: "";
+    border-top: 2px solid black;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+}
+.about-title{
+    font-size: 17px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+h3{
+    color: black;
+    text-align: left;
+    font-size: 40px;
+    font-weight: bold;
+}
+h5{
+    font-weight: bold;
+    border-bottom: 2px solid;
+}
+.card-body {
+    text-align: left;
+}
